@@ -1,0 +1,134 @@
+body {
+    background-color: #fff0f5;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+h1, h2 {
+    font-family: 'Molle', cursive;
+}
+
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(255, 192, 220)
+}
+
+.tagline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-bottom: 0;
+    text-align: center;
+    color: white
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center; 
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+h2 {
+    color: #a83270;
+    margin-top: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+blockquote {
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
+  font-style: italic; font-weight: bold;
+  color: #a83270;
+  line-height: 1.6;
+  font-size: 1.75em;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.85em;
+  font-style: normal;
+  color: #6c757d;
+  font-weight: 600;
+}
+
+
+.main-photo {
+    width: 350px;
+    display: block;
+    margin: 20px auto;
+}
+
+.gallery-photo {
+    width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  display: block;    
+  aspect-ratio: 16/9;
+}
+
+a {
+    color: #a83270; 
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 15px;
+  padding: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+    background-color: #a83270;;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: white;
+}
